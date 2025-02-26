@@ -1,0 +1,11 @@
+[package]
+name = "LiquidityLocker"
+version = "0.0.1"
+
+[addresses]
+LiquidityLocker = "0x03f4fe0fa07e8733ca0eb08be6d46e8ae929afdc33222164d79f5cdc89137970"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
